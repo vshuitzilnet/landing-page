@@ -1,0 +1,168 @@
+.credit-option-header{
+    padding-left: 3vw;
+}
+
+.background-header{
+    background-image: url('../../assets/banner.jpg');
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+.btn-return{
+    background-color: transparent;
+    color: #272C31; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    border: none; 
+    outline: none;
+    padding: 1vw;
+    padding-left: 0vw;
+}
+
+.img-return{
+    padding-right: 1vw;
+    padding-left: 0vw;
+}
+
+.credit-option-section{
+    padding-right: 3vw;
+    padding-left: 3vw;
+    padding-bottom: 3vh;
+}
+
+.title-color{
+    color: #1C2946;
+}
+
+.title{
+    color: #F54301;
+}
+
+
+
+.subtitle-color{
+    color: #272C31; 
+    font-size: small;
+}
+
+.description-img-section{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.btn-description{
+    color: #F54301;
+    border-color: #F54301;
+    font-size: x-small;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.btn-description:hover{
+    color: white;
+    background-color: #F54301;
+}
+
+.information-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+//Style of information section
+
+.card{
+    width: 80%;
+
+}
+
+.card-title{
+    text-transform: uppercase;
+    color: #1C2946;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.card-subtitle{
+    color: #272C31;
+    font-size: small;
+}
+
+.card-note{
+    text-transform: uppercase;
+    color: #F54301;
+    font-size: x-small;
+    font-weight: bold;
+    margin-top: 3vh;
+
+}
+
+.call-now{
+    color: #1C2946;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.btn-card{
+    border-radius: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: left;
+    padding-left: 2vw;
+    background-color: #1C2946;
+    margin-bottom: 1vw;
+}
+
+.option-card{
+    background-color: #CFCFCF;
+    border-color: #CFCFCF;
+    color: #1C2946;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.call-icon{
+    padding-right: .5vw;
+}
+
+.card-normal-text{
+    color: #1C2946;
+    font-size: small;
+    font-weight: bold;
+}
+
+.btn-card-transparent{
+    color: #1C2946;
+    border-color: #1C2946;
+    font-size: x-small;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.btn-card-transparent:hover{
+    color: white;
+    background-color: #1C2946;
+    
+}
+
+.information-section-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+}
+
+
+
+
+
+

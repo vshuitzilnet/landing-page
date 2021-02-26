@@ -1,0 +1,43 @@
+<div class="container-fluid">
+    <div class="row blog-header"> 
+        <div class="col-12">
+            <h5 class="title">Nuestro Blog ARA</h5>
+            <a href="" class="btn-link">Ver todos los artículos ></a>
+        </div>
+    </div>
+
+    <div class="row section-blogs">
+        
+        <div class="blog-items col-12 col-md-4" *ngFor="let blog of blogs">
+            <div class="card">
+                <img class="card-img-top" src="{{blog.img}}" alt="Card image cap">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5 class="card-title">{{blog.title}}</h5>
+                        </div>
+                    </div>
+                    <p class="card-text">{{blog.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row newsletter">
+        <div class="newsletter-section col-12 col-md-5">
+            <p class="newsletter-title">Newsletter</p>
+            <p class="newsletter-description">Suscríbete a nuestro NEWSLETTER para ser el primero en recibir nuestras novedades cada mes. </p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-12 col-md-6">
+            <div class="input-group mb-2">
+                <input type="text" class="form-control input-newslatter" placeholder="Escribe tu Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append ">
+                    <button class="btn btn-outline-secondary btn-newsletter" type="button">
+                        <img src="../../assets/icons/send.svg" alt="" width="15px">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
